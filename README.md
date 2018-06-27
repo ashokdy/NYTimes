@@ -5,7 +5,7 @@
 1.0
 
 ## Build and Runtime Requirements
-+ Xcode 9.0 or later
++ Xcode 9.2 or later
 + iOS 11.2 or later
 
 ## Configuring the Project
@@ -30,6 +30,9 @@ Configuring the Xcode project requires a few steps in Xcode to get up and runnin
 - NYTimesTests
 
 5) Run the application in iPhone or iPad simulator or device to have the list of results from service
+
+Note: Update the project settings if any errors while compiling
+
 ## About NYTimes
 
 NYTimes is an iOS project to view most viewed Articles from Newyork Times. In this project, the user can see lists of articles recent to 1, 7 and 30days.
