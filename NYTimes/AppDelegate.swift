@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //hgfytf
         
         //Start monitoring for network status
-        SSASwiftReachability.sharedManager?.startMonitoring()
+      //  SSASwiftReachability.sharedManager?.startMonitoring()
         
         return true
     }
