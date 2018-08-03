@@ -39,7 +39,7 @@ struct Article: Decodable {
     var section: String?
     var urlString: String?
     var mediaImages: [ImageData]?
-    
+    var mediaIhmages: [ImageData]?
     enum CodingKeys: String, CodingKey {
         case title, abstract, section
         case byLine = "byline"

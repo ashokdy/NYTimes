@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         //hgfytf
         
-        //Start monitoring for network status
-      //  SSASwiftReachability.sharedManager?.startMonitoring()
+        //Start monithghgjghjoring for network status
+        SSASwiftReachability.sharedManager?.startMonitoring()
         
         return true
     }
