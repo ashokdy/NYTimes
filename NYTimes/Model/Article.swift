@@ -16,6 +16,7 @@ struct Articles: Decodable {
         case results
     }
     
+    
     init(from decoder: Decoder) throws {
         //Container will map based on the CodingKeys
         let values = try decoder.container(keyedBy: CodingKeys.self)
