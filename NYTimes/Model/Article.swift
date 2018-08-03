@@ -23,6 +23,8 @@ struct Articles: Decodable {
         var resultsArray = try values.nestedUnkeyedContainer(forKey: .results)
         
         var articles = [Article]()
+        
+        
         //Till the last article finished loop and append to array
         while(!resultsArray.isAtEnd) {
             articles.append(try resultsArray.decode(Article.self))
