@@ -18,7 +18,10 @@ struct Articles: Decodable {
     
     
     init(from decoder: Decoder) throws {
+    
         //Container will map based on the CodingKeys
+        
+        
         let values = try decoder.container(keyedBy: CodingKeys.self)
         //To Get Array response for the given key - "results"
         var resultsArray = try values.nestedUnkeyedContainer(forKey: .results)
